@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "36bce093-617e-4f64-83ad-e44df9973489",
+            "Value": {
+                "id": "f7a8bd4f-3866-4828-9c10-2dc7f01c4f0f",
+                "resourcePath": "objects\\obj_gameMusic\\obj_gameMusic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "382d5f6d-5643-4e31-878c-433116512b56",
             "Value": {
                 "id": "f16109b9-9851-4b92-b9d5-e5b9ff694f0a",
@@ -164,6 +172,14 @@
                 "id": "7cc99983-274f-4f80-8c91-81be4d8e0357",
                 "resourcePath": "fonts\\fnt_mainMenuTitle\\fnt_mainMenuTitle.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "6ad64f09-7222-4f1b-82c0-4bf1fe89bac7",
+            "Value": {
+                "id": "e96a1a94-21a3-4af6-9fc5-9d3a72ac5bb0",
+                "resourcePath": "objects\\obj_menuMusic\\obj_menuMusic.yy",
+                "resourceType": "GMObject"
             }
         },
         {
