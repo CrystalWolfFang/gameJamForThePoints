@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "5f0ca497-45bc-45a9-8b8a-c3693d04cfbd",
+            "Value": {
+                "id": "75da92db-7bfe-4975-833e-3e2a09c19a39",
+                "resourcePath": "sounds\\sou_inGame\\sou_inGame.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "602c241c-53f2-412b-9cd3-36acc922af41",
             "Value": {
                 "id": "a93df95d-3aff-4914-8d48-f1f6b022fff8",
@@ -252,6 +260,14 @@
                 "id": "6b638288-2dbc-4abd-a61a-6cd620356f3a",
                 "resourcePath": "objects\\obj_blobMain\\obj_blobMain.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c5fa6446-3b79-4d85-bd91-56b95b3c8b3d",
+            "Value": {
+                "id": "c81475a8-188a-491b-9a72-d10f64769adc",
+                "resourcePath": "sounds\\sou_mainMenu\\sou_mainMenu.yy",
+                "resourceType": "GMSound"
             }
         },
         {
