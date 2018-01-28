@@ -1,0 +1,2 @@
+color = "gblue";
+eye = "angry";

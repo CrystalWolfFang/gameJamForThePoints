@@ -41,6 +41,20 @@ else
 	newEye = parentEyeOne;
 }
 
-inst = instance_create_depth(random_range(100,500),random_range(100,500), 0, obj_blobMain);
+inst = instance_create_depth(random_range(100,900),random_range(100,700), 0, obj_blobMain);
 inst.color = newColor;
 inst.eye = newEye;
+if(LevelOne)
+{
+	if(inst.color == "purple" and inst.eye == "angry")
+	{
+		room_goto_next();
+	}
+}
+else if(LevelTwo)
+{
+	if(inst.color == "orange" and inst.eye == "bulbasaur")
+	{
+		room_goto_next();
+	}
+}

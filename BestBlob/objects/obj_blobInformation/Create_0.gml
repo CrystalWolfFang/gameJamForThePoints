@@ -42,5 +42,5 @@ parentBodyChance = 50;
 randomize();
 for(i = 0; i < 3; i++)
 {	
-	instance_create_depth(random_range(100, 500),random_range(100, 500),0,obj_blobMain);
+	instance_create_depth(random_range(100, 900),random_range(100, 700),0,obj_blobMain);
 }
