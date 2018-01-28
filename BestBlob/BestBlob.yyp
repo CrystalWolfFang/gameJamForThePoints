@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "148fb4b5-d1e4-4532-8a26-29ce7456c85d",
+            "Value": {
+                "id": "708015c8-97d8-4e02-8ca1-711148a298b5",
+                "resourcePath": "objects\\obj_mainMenuTitle\\obj_mainMenuTitle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "208eb9ef-ffbd-467a-9a84-5b746741de90",
             "Value": {
                 "id": "376c0ffa-aa20-4944-99cb-89230f6bb8a9",
@@ -76,6 +84,22 @@
                 "id": "eeddb543-e0cb-4f46-928a-63c1210bf53b",
                 "resourcePath": "sprites\\spr_floor\\spr_floor.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "61602d04-4607-4bb5-b9ef-be302baf1b39",
+            "Value": {
+                "id": "ed46b644-26ff-453a-9a1c-f81f25a4b0e0",
+                "resourcePath": "objects\\obj_howToPlayTitle\\obj_howToPlayTitle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "68883bf8-a20e-486a-b7ed-a0c62c92befc",
+            "Value": {
+                "id": "7cc99983-274f-4f80-8c91-81be4d8e0357",
+                "resourcePath": "fonts\\fnt_mainMenuTitle\\fnt_mainMenuTitle.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -172,6 +196,22 @@
                 "id": "c4719bc1-e27c-4c7e-adbd-a258b28e0c9a",
                 "resourcePath": "tilesets\\til_floor\\til_floor.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "db9d84a6-ef35-4f7a-a90d-fe1dd97c8c0f",
+            "Value": {
+                "id": "49e2bdd0-22ed-4b00-9e50-f7e7ca723197",
+                "resourcePath": "rooms\\HowToPlay\\HowToPlay.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "dd500d88-9e68-4e45-8380-2440ac3af386",
+            "Value": {
+                "id": "704d3a9a-77de-4714-a5b1-f1d31d5e375b",
+                "resourcePath": "sprites\\spr_mainMenuTile\\spr_mainMenuTile.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
