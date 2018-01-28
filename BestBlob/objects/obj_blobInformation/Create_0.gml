@@ -13,6 +13,10 @@ eyeArray[0] = "basic";
 eyeArray[1] = "angry";
 eyearray[2] = "tired";
 */
+
+selectedAmount = 0;
+selectedFirst = 0;
+
 eyeBreedArray[0] = "bulbasaur";
 eyeBreedArray[1] = "squint";
 eyeBreedArray[2] = "whatthefuckishappening";
