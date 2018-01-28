@@ -12,11 +12,11 @@ bodyBreedArray[2] = "purple";
 eyeArray[0] = "basic";
 eyeArray[1] = "angry";
 eyearray[2] = "tired";
-*/
+
 eyeBreedArray[0] = "bulbasaur";
 eyeBreedArray[1] = "squint";
 eyeBreedArray[2] = "whatthefuckishappening";
-
+*/
 redInUse = false;
 blueInUse = false;
 greenInUse = false;
