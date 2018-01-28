@@ -15,7 +15,12 @@ eyearray[2] = "tired";
 */
 
 selectedAmount = 0;
-selectedFirst = 0;
+selectedFirstColor = "";
+selectedFirstEye = "";
+
+selectedSecondColor = "";
+selectedSecondEye = "";
+
 
 /*eyeBreedArray[0] = "bulbasaur";
 eyeBreedArray[1] = "squint";

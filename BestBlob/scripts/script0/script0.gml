@@ -1,7 +1,10 @@
-var parentBlobOne = instance_find(obj_blobMain, argument0);
-var parentBlobTwo = instance_find(obj_blobMain, argument1);
-
-show_message(parentBlobTwo.color);
+var parentBlobOne = argument0;
+var parentEyeOne = argument1;
+var parentBlobTwo = argument2;
+var parentEyeTwo = argument3;
+//added by jackie
+var newEye ="basic";
+var newColor = "yellow";
 
 randomize();
 bodyNumber = irandom_range(0, 100);
@@ -9,35 +12,35 @@ eyeNumber = irandom_range(0,100);
 
 if(bodyNumber >= obj_blobInformation.mixedBodyChance)
 {
-	if(parentBlobOne.color = "red" && parentBlobTwo.color = "green") newColor = "orange";
-	else if(parentBlobOne.color = "red" && parentBlobTwo.color = "blue") newColor = "purple";
-	else if(parentBlobOne.color = "blue" && parentBlobTwo.color = "green") newColor = "gblue";
+	if(parentBlobOne = "red" && parentBlobTwo = "yellow") newColor = "orange";
+	else if(parentBlobOne = "red" && parentBlobTwo = "blue") newColor = "purple";
+	else if(parentBlobOne = "blue" && parentBlobTwo = "yellow") newColor = "gblue";
 }
 
 else if(bodyNumber > obj_blobInformation.parentBodyChance && bodyNumber < obj_blobInformation.mixedBodyChance)
 {
-	newColor = parentBlobTwo.color;
+	newColor = parentBlobTwo;
 }
 else
 {
-	newColor = parentBlobOne.color;
+	newColor = parentBlobOne;
 }
 
 if(eyeNumber >= obj_blobInformation.mixedEyeChance)
 {
-	if(parentBlobOne.eye = "basic" && parentBlobTwo.eye = "angry") newEye = "bulbasaur";
-	else if(parentBlobOne.eye = "basic" && parentBlobTwo.eye = "tired") newEye = "whatthefuckishappening";
-	else if(parentBlobOne.eye = "angry" && parentBlobTwo.eye = "tired") newEye = "squint";
+	if(parentEyeOne = "basic" && parentEyeTwo = "angry") newEye = "bulbasaur";
+	else if(parentEyeOne = "basic" && parentEyeTwo = "tired") newEye = "whatthefuckishappening";
+	else if(parentEyeOne = "angry" && parentEyeTwo = "tired") newEye = "squint";
 }
-else if(bodyNumber > obj_blobInformation.parentEyeChance && bodyMumber < obj_blobInformation.mixedEyeChance)
+else if(bodyNumber > obj_blobInformation.parentEyeChance && bodyNumber < obj_blobInformation.mixedEyeChance)
 {
-	newEye = parentBlobTwo.eye;
+	newEye = parentEyeTwo;
 }
 else
 {
-	newEye = parentBlobOne.eye;
+	newEye = parentEyeOne;
 }
 
-inst = instance_create_depth(60,60, 0, obj_blobMain);
+inst = instance_create_depth(random_range(100,500),random_range(100,500), 0, obj_blobMain);
 inst.color = newColor;
 inst.eye = newEye;
