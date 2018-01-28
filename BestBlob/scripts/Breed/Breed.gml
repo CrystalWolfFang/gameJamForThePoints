@@ -7,9 +7,9 @@ eyeNumber = irandom_range(0,100);
 
 if(bodyNumber >= obj_blobInformation.mixedBodyChance)
 {
-	if(parentBlobOne.color = "red" && parentBlobTwo = "yellow") newColor = "orange";
+	if(parentBlobOne.color = "red" && parentBlobTwo = "green") newColor = "orange";
 	else if(parentBlobOne.color = "red" && parentBlobTwo = "blue") newColor = "purple";
-	else if(parentBlobOne.color = "blue" && parentBlobTwo = "yellow") newColor = "gblue";
+	else if(parentBlobOne.color = "blue" && parentBlobTwo = "green") newColor = "gblue";
 }
 
 else if(bodyNumber > obj_blobInformation.parentBodyChance && bodyMumber < obj_blobInformation.mixedBodyChance)
