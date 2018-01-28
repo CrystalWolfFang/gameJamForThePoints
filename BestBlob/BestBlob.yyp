@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "8a8f6568-d0e7-4b16-a023-781a722aa005",
+            "Value": {
+                "id": "6cccd703-290e-4caf-944d-a2ffd06dc4d9",
+                "resourcePath": "objects\\obj_howToPlayText\\obj_howToPlayText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a1ce8a71-60e6-44cc-a624-8b2f588826f5",
             "Value": {
                 "id": "6a28b073-e77c-4f3b-a1bf-f7aff121c629",
@@ -220,6 +228,14 @@
                 "id": "ec541097-5f42-4dbb-8889-dc87f5a47cbe",
                 "resourcePath": "views\\e4194795-d52d-4489-bcba-9bd98ed4ea03.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e5397a28-5bef-4695-a3b6-9ca1b3e3e8b1",
+            "Value": {
+                "id": "01d227e1-66d5-44ed-883e-b2a4e76da4ec",
+                "resourcePath": "fonts\\fnt_mainMenuText\\fnt_mainMenuText.yy",
+                "resourceType": "GMFont"
             }
         },
         {
