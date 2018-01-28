@@ -1,5 +1,7 @@
-parentBlobOne = argument0;
-parentBlobTwo = argument1;
+var parentBlobOne = instance_find(obj_blobMain, argument0);
+var parentBlobTwo = instance_find(obj_blobMain, argument1);
+
+show_message(parentBlobTwo.color);
 
 randomize();
 bodyNumber = irandom_range(0, 100);
@@ -7,12 +9,12 @@ eyeNumber = irandom_range(0,100);
 
 if(bodyNumber >= obj_blobInformation.mixedBodyChance)
 {
-	if(parentBlobOne.color = "red" && parentBlobTwo = "green") newColor = "orange";
-	else if(parentBlobOne.color = "red" && parentBlobTwo = "blue") newColor = "purple";
-	else if(parentBlobOne.color = "blue" && parentBlobTwo = "green") newColor = "gblue";
+	if(parentBlobOne.color = "red" && parentBlobTwo.color = "green") newColor = "orange";
+	else if(parentBlobOne.color = "red" && parentBlobTwo.color = "blue") newColor = "purple";
+	else if(parentBlobOne.color = "blue" && parentBlobTwo.color = "green") newColor = "gblue";
 }
 
-else if(bodyNumber > obj_blobInformation.parentBodyChance && bodyMumber < obj_blobInformation.mixedBodyChance)
+else if(bodyNumber > obj_blobInformation.parentBodyChance && bodyNumber < obj_blobInformation.mixedBodyChance)
 {
 	newColor = parentBlobTwo.color;
 }

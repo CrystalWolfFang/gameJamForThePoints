@@ -1,15 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
+frameSet = -1;
+color = "red";
+eye = "basic";
 
 if(!obj_blobInformation.redInUse) 
 {
 	color = "red";
 	obj_blobInformation.redInUse = true;
 }
-else if(!obj_blobInformation.greenInUse) 
+else if(!obj_blobInformation.yellowInUse) 
 {
-	color = "green";
-	obj_blobInformation.greenInUse = true;
+	color = "yellow";
+	obj_blobInformation.yellowInUse = true;
 }
 else if(!obj_blobInformation.blueInUse)
 {

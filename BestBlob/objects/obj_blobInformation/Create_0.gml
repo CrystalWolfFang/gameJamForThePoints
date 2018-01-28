@@ -17,13 +17,13 @@ eyearray[2] = "tired";
 selectedAmount = 0;
 selectedFirst = 0;
 
-eyeBreedArray[0] = "bulbasaur";
+/*eyeBreedArray[0] = "bulbasaur";
 eyeBreedArray[1] = "squint";
 eyeBreedArray[2] = "whatthefuckishappening";
-
+*/
 redInUse = false;
 blueInUse = false;
-greenInUse = false;
+yellowInUse = false;
 
 basicEyeInUse = false;
 angryEyeInUse = false;
@@ -34,4 +34,8 @@ parentEyeChance = 25;
 
 mixedBodyChance = 50;
 parentBodyChance = 50;
-
+randomize();
+for(i = 0; i < 3; i++)
+{	
+	instance_create_depth(random_range(100, 500),random_range(100, 500),0,obj_blobMain);
+}
