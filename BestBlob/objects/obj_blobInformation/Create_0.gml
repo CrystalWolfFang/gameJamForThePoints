@@ -19,7 +19,7 @@ eyeBreedArray[2] = "whatthefuckishappening";
 */
 redInUse = false;
 blueInUse = false;
-yellowInUse = false;
+greenInUse = false;
 
 basicEyeInUse = false;
 angryEyeInUse = false;

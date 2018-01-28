@@ -6,10 +6,10 @@ if(!obj_blobInformation.redInUse)
 	color = "red";
 	obj_blobInformation.redInUse = true;
 }
-else if(!obj_blobInformation.yellowInUse) 
+else if(!obj_blobInformation.greenInUse) 
 {
-	color = "yellow";
-	obj_blobInformation.yellowInUse = true;
+	color = "green";
+	obj_blobInformation.greenInUse = true;
 }
 else if(!obj_blobInformation.blueInUse)
 {
