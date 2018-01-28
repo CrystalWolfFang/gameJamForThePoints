@@ -1,0 +1,2 @@
+color = "purple";
+eye = "angry";
